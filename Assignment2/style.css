@@ -1,0 +1,105 @@
+header{
+    display: flex;
+    color: white;
+    background-color: rgb(145, 12, 12);
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
+    position: sticky;
+    
+    position: relative;
+   
+    height: 100px;
+   
+
+}
+
+nav{
+    display: flex;
+    gap: 200px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    justify-content: right;
+    right: 15%;
+    
+}
+
+h1{
+    left: 10%;
+    position: absolute;
+    top: 19%;
+}
+
+h2{
+    
+    width: 100%;
+    height: 50px;
+   
+    text-align: center;
+    
+}
+
+#cookie{
+    width: 500px;
+    height: 500px;
+    cursor: pointer;
+    transition: transform 0.1s;
+    position: absolute;
+    
+    
+}
+
+img:active {
+    transform: scale(0.9);
+  }
+
+#cookiecount{
+    font-size: 2rem;
+   
+    left: 30%;
+    z-index: -1;
+    
+    
+}
+
+
+.container{
+    display: flex;
+    max-width: 30%;
+    height: 100%;
+    flex-direction: column;
+    position: fixed;
+    
+    
+    
+}
+
+
+#upgrades{
+    width: 65%;
+    height:80%;
+    right: 0px;
+    bottom: 0px;
+    position:fixed;
+    background-color: blue;
+    display: grid;
+    
+    
+
+}
+
+#upgrades button {
+    cursor: pointer;
+    font-size: 2rem;
+    font-style: bold;
+    background-color: brown;
+  }
+
+#upgrades button:hover{
+    background-color: black;
+    color: white;
+}
+
+
